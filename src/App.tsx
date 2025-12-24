@@ -437,7 +437,7 @@ function App() {
                       <li><strong>Moves:</strong> 0 sticks = 5 moves. 1=1, 2=2, 3=3, 4=4.</li>
                       <li><strong>Extra Turn:</strong> Only on 1, 4, or 0 (5).</li>
                       <li><strong>Protection:</strong> 2 adjacent pieces of same color cannot be attacked.</li>
-                      <li><strong>Houses:</strong> 15 (Life -> 1), 26 (Beauty - Stop Exact), 27 (Water - Lose turn/Reset), 30 (Horus).</li>
+                      <li><strong>Houses:</strong> 15 (Life &rarr; 1), 26 (Beauty - Stop Exact), 27 (Water - Lose turn/Reset), 30 (Horus).</li>
                    </ul>
                 </div>
              </div>
