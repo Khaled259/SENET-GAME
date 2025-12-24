@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Board } from './components/Board';
 import { LearnGuide } from './components/LearnGuide';
-import { GameState, GamePhase, Player, Move, Token } from './types';
+import { GameState, GamePhase, Player } from './types';
 import { INITIAL_STATE, getMoveDistance, hasExtraTurn, getValidMoves, checkWinCondition } from './utils/gameLogic';
-import { RotateCcw, BookOpen, Gamepad2, Info, ArrowRight, Save, History, Trophy } from 'lucide-react';
+import { RotateCcw, BookOpen, Gamepad2, Info, History, Trophy } from 'lucide-react';
 import clsx from 'clsx';
 
 function App() {
